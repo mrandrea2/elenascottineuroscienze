@@ -296,3 +296,23 @@ th { background: var(--surface-2); }
   body { background: #fff; color: #000; }
   .activity, .box { box-shadow: none; }
 }
+
+/* Ottimizzazione smartphone: disegni verticali e tabelle a schede */
+.only-narrow { display: none; }
+.halo { paint-order: stroke; stroke: var(--surface); stroke-width: 6px; stroke-linejoin: round; }
+.mid-svg .svg-small { font-size: 17px; }
+@media (max-width: 600px) {
+  .only-wide { display: none; }
+  .only-narrow { display: block; }
+  .only-narrow .svg-label { font-size: 19px; }
+  .only-narrow .svg-small { font-size: 17px; }
+  .mid-svg .svg-small { font-size: 19px; }
+  table.stack, table.stack tbody, table.stack tr, table.stack td, table.stack th { display: block; width: 100%; }
+  table.stack tr:first-child { display: none; }
+  table.stack tr { border: 2px solid var(--line); border-radius: 14px; margin: .7rem 0; padding: .4rem 0; background: var(--surface); }
+  table.stack td, table.stack th { border: 0; padding: .35rem .9rem; background: none; }
+  table.stack th { font-size: 1.1rem; color: var(--primary); }
+  table.stack td[data-label]:not([data-label=""])::before { content: attr(data-label); display: block; font-weight: 700; font-size: .9rem; color: var(--muted); }
+  .table-wrap { overflow-x: visible; }
+  .activity, .box { padding-left: .9rem; padding-right: .9rem; }
+}

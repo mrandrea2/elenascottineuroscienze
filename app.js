@@ -235,7 +235,7 @@
 <h2 id="s4-mentale">La mappa mentale</h2>
 <p>Codificata negli anni Settanta da <strong>Tony Buzan</strong>, si sviluppa in modo radiale: dal centro si diramano parole chiave, immagini e simboli. Serve a raccogliere idee, progettare, ripassare un elenco, preparare un'esposizione orale seguendo i rami.</p>
 <div class="box">
-<svg class="figure big-svg" viewBox="-20 0 680 340" role="img" aria-label="Esempio di mappa mentale sulla pallavolo: al centro pallavolo, rami storia, campo, fondamentali, ruoli, regole; da fondamentali partono bagher, palleggio, battuta.">
+<svg class="figure big-svg only-wide" viewBox="-20 0 680 340" role="img" aria-label="Esempio di mappa mentale sulla pallavolo: al centro pallavolo, rami storia, campo, fondamentali, ruoli, regole; da fondamentali partono bagher, palleggio, battuta.">
   <path d="M320 165 C250 120 200 80 120 70" stroke="#c0392b" stroke-width="9" fill="none" stroke-linecap="round"/>
   <path d="M320 165 C400 110 450 80 530 70" stroke="#1f6fb2" stroke-width="9" fill="none" stroke-linecap="round"/>
   <path d="M320 165 C230 190 190 230 110 250" stroke="#2e8b57" stroke-width="9" fill="none" stroke-linecap="round"/>
@@ -256,6 +256,25 @@
   <text class="svg-small" x="142" y="326">palleggio</text>
   <text class="svg-small" x="-18" y="206">battuta</text>
 </svg>
+<svg class="figure only-narrow" viewBox="0 0 360 520" role="img" aria-label="Esempio di mappa mentale sulla pallavolo: al centro pallavolo, rami storia, campo, fondamentali, ruoli, regole; da fondamentali partono bagher, palleggio, battuta.">
+  <path d="M50 100 C120 45 240 45 310 100" stroke="currentColor" stroke-width="2" stroke-dasharray="6 6" fill="none" opacity=".5"/>
+  <path d="M180 240 C140 180 110 130 50 100" stroke="#c0392b" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M180 240 C220 180 250 130 310 100" stroke="#1f6fb2" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M180 240 C240 260 280 280 330 300" stroke="#8e44ad" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M180 240 C190 320 200 380 230 440" stroke="#d68910" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M180 240 C140 290 110 330 80 370" stroke="#2e8b57" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M80 370 C60 400 40 430 22 452 M80 370 C85 400 88 430 92 460 M80 370 C105 390 125 405 142 418" stroke="#2e8b57" stroke-width="4" fill="none"/>
+  <circle cx="180" cy="240" r="50" fill="#ffd27a" stroke="#17202f" stroke-width="3"/>
+  <text x="180" y="247" text-anchor="middle" font-size="21" font-weight="700" fill="#17202f">pallavolo</text>
+  <text class="svg-label halo" x="14" y="86">storia</text>
+  <text class="svg-label halo" x="262" y="86">campo</text>
+  <text class="svg-label halo" x="284" y="332">ruoli</text>
+  <text class="svg-label halo" x="200" y="470">regole</text>
+  <text class="svg-label halo" x="10" y="342">fondamentali</text>
+  <text class="svg-small halo" x="2" y="478">battuta</text>
+  <text class="svg-small halo" x="62" y="488">bagher</text>
+  <text class="svg-small halo" x="104" y="442">palleggio</text>
+</svg>
 <p class="source">Una versione possibile, non l'unica giusta. La linea tratteggiata è un collegamento trasversale.</p>
 </div>
 <h3>Come si costruisce</h3>
@@ -272,7 +291,7 @@
 <h2 id="s4-concettuale">La mappa concettuale</h2>
 <p>Sviluppata da <strong>Joseph Novak</strong> sulle idee di Ausubel: si impara in modo duraturo quando si collega il nuovo a ciò che già si sa. È gerarchica e reticolare: in alto i concetti generali, sotto quelli particolari, e sulle frecce le <strong>parole-legame</strong> che rendono esplicita la relazione.</p>
 <div class="box">
-<svg class="figure big-svg" viewBox="0 0 640 340" role="img" aria-label="Esempio di mappa concettuale. Domanda focale: perché ci si riscalda prima di allenarsi? Il riscaldamento aumenta la temperatura muscolare, che migliora l'elasticità; il riscaldamento prepara allo sforzo; l'elasticità riduce il rischio di infortuni.">
+<svg class="figure big-svg only-wide" viewBox="0 0 640 340" role="img" aria-label="Esempio di mappa concettuale. Domanda focale: perché ci si riscalda prima di allenarsi? Il riscaldamento aumenta la temperatura muscolare, che migliora l'elasticità; il riscaldamento prepara allo sforzo; l'elasticità riduce il rischio di infortuni.">
   <text class="svg-label" x="320" y="24" text-anchor="middle">Domanda focale: perché ci si riscalda prima di allenarsi?</text>
   <line x1="290" y1="92" x2="160" y2="160" class="axis"/>
   <line x1="350" y1="92" x2="480" y2="160" class="axis"/>
@@ -292,6 +311,28 @@
   <text class="svg-small" x="420" y="122" font-style="italic">prepara allo</text>
   <text class="svg-small" x="140" y="236" font-style="italic">migliora l'</text>
   <text class="svg-small" x="250" y="276" font-style="italic">riduce il rischio di</text>
+</svg>
+<svg class="figure only-narrow" viewBox="0 0 360 480" role="img" aria-label="Esempio di mappa concettuale. Domanda focale: perché ci si riscalda prima di allenarsi? Il riscaldamento aumenta la temperatura muscolare, che migliora l'elasticità; il riscaldamento prepara allo sforzo; l'elasticità riduce il rischio di infortuni.">
+  <text class="svg-label" x="180" y="22" text-anchor="middle">Domanda focale: perché ci si</text>
+  <text class="svg-label" x="180" y="46" text-anchor="middle">riscalda prima di allenarsi?</text>
+  <line x1="150" y1="118" x2="110" y2="172" class="axis"/>
+  <line x1="220" y1="118" x2="295" y2="172" class="axis"/>
+  <line x1="110" y1="216" x2="110" y2="282" class="axis"/>
+  <line x1="120" y1="326" x2="180" y2="420" class="axis" stroke-dasharray="7 6"/>
+  <rect x="85" y="72" width="190" height="46" rx="10" fill="#ffd27a" stroke="#17202f" stroke-width="2.5"/>
+  <text x="180" y="102" text-anchor="middle" font-size="20" font-weight="700" fill="#17202f">riscaldamento</text>
+  <rect x="4" y="172" width="228" height="44" rx="10" class="zone-ok" stroke="currentColor" stroke-width="2"/>
+  <text class="svg-label" x="118" y="200" text-anchor="middle">temperatura muscolare</text>
+  <rect x="242" y="172" width="114" height="44" rx="10" class="zone-ok" stroke="currentColor" stroke-width="2"/>
+  <text class="svg-label" x="299" y="200" text-anchor="middle">sforzo</text>
+  <rect x="30" y="282" width="160" height="44" rx="10" class="zone-ok" stroke="currentColor" stroke-width="2"/>
+  <text class="svg-label" x="110" y="310" text-anchor="middle">elasticità</text>
+  <rect x="100" y="420" width="160" height="44" rx="10" class="zone-ok" stroke="currentColor" stroke-width="2"/>
+  <text class="svg-label" x="180" y="448" text-anchor="middle">infortuni</text>
+  <text class="svg-small halo" x="16" y="150" font-style="italic">aumenta la</text>
+  <text class="svg-small halo" x="252" y="150" font-style="italic">prepara allo</text>
+  <text class="svg-small halo" x="120" y="256" font-style="italic">migliora l'</text>
+  <text class="svg-small halo" x="150" y="372" font-style="italic">riduce il rischio di</text>
 </svg>
 <p class="source">Leggila seguendo le frecce: «il riscaldamento aumenta la temperatura muscolare», «la temperatura muscolare migliora l'elasticità»… La linea tratteggiata è un collegamento trasversale.</p>
 </div>
@@ -676,7 +717,7 @@
       amyg: { n: 'Amigdala', sw: 'sw-amyg', h: '<p><strong>Dove:</strong> due piccoli nuclei a forma di mandorla (in greco <em>amygdala</em>), in profondità nei lobi temporali, accanto all’ippocampo.</p><p><strong>Che cosa fa:</strong> valuta il significato emotivo di ciò che accade, soprattutto la minaccia: è il <strong>rilevatore di pericolo</strong> del cervello. Fissa i ricordi legati alle emozioni: gli eventi intensi si ricordano meglio.</p><p><strong>Perché ti riguarda:</strong> l’allarme non distingue un pericolo reale da uno immaginato, quindi un’interrogazione viene trattata come una minaccia. Se l’allarme è troppo forte la corteccia prefrontale lavora peggio: è il vuoto di memoria. Serve la giusta attivazione, come prima di una gara.</p>' }
     };
     el.innerHTML = `${tag('Esplora')}<h3>Tocca una struttura</h3>
-<svg class="figure" viewBox="0 0 400 300" role="img" aria-label="Schema semplificato del cervello visto di lato, con la fronte a sinistra">
+<svg class="figure mid-svg" viewBox="0 0 400 300" role="img" aria-label="Schema semplificato del cervello visto di lato, con la fronte a sinistra">
   <path class="brain-stem" d="M245 205 C250 235 255 262 262 292 L286 292 C279 258 277 232 281 205 Z"/>
   <ellipse class="brain-cereb" cx="302" cy="222" rx="44" ry="25"/>
   <path class="brain-outline" d="M70 165 C50 105 105 45 200 40 C295 35 355 85 355 145 C357 180 338 200 308 205 L265 208 C245 222 205 226 172 220 C128 224 85 205 70 165 Z"/>
@@ -684,8 +725,8 @@
   <path class="region r-cort" data-r="cort" d="M70 165 C50 105 105 45 200 40 C295 35 355 85 355 145 C357 180 338 200 308 205"/>
   <path class="region r-hipp" data-r="hipp" d="M196 178 C216 197 248 197 267 172"/>
   <circle class="region r-amyg" data-r="amyg" cx="185" cy="172" r="11"/>
-  <text class="svg-small" x="14" y="150">fronte</text>
-  <text class="svg-small" x="330" y="268">cervelletto</text>
+  <text class="svg-small" x="4" y="150">fronte</text>
+  <text class="svg-small" x="300" y="275">cervelletto</text>
   <text class="svg-small" x="200" y="292">tronco</text>
 </svg>
 <div class="region-btns" role="group" aria-label="Strutture">${Object.keys(R).map((k) => `<button type="button" data-r="${k}" aria-pressed="false"><span class="sw ${R[k].sw}"></span>${R[k].n}</button>`).join('')}</div>
@@ -706,12 +747,12 @@
       syn: ['Sinapsi', 'Il punto di contatto tra l’assone di un neurone e il neurone successivo. Qui l’impulso elettrico libera i <strong>neurotrasmettitori</strong> (i pallini) che attraversano la fessura sinaptica. Imparare significa formare nuove sinapsi o rendere più efficienti quelle esistenti.']
     };
     el.innerHTML = `${tag('Esplora')}<h3>Le parti del neurone</h3><p>Tocca una parte del disegno o un pulsante.</p>
-<svg class="figure" viewBox="0 0 440 180" role="img" aria-label="Disegno di un neurone: dendriti, corpo cellulare, assone e sinapsi con il neurone successivo">
+<svg class="figure mid-svg" viewBox="0 0 440 180" role="img" aria-label="Disegno di un neurone: dendriti, corpo cellulare, assone e sinapsi con il neurone successivo">
   <g class="n-part" data-p="dend"><path class="n-line" d="M68 80 L30 40 M68 80 L14 82 M70 102 L30 145 M80 66 L66 22 M50 60 L36 52 M44 128 L22 128"/><rect x="0" y="10" width="62" height="150" fill="transparent"/></g>
   <g class="n-part" data-p="soma"><circle class="n-soma" cx="90" cy="90" r="27"/><circle class="n-nucleus" cx="90" cy="90" r="8"/></g>
   <g class="n-part" data-p="axon"><path class="n-line" d="M117 90 L330 90"/><rect x="117" y="75" width="213" height="30" fill="transparent"/></g>
   <g class="n-part" data-p="syn"><path class="n-line" d="M330 90 L352 68 M330 90 L356 90 M330 90 L352 112"/><circle class="n-vesicle" cx="366" cy="84" r="4"/><circle class="n-vesicle" cx="372" cy="94" r="4"/><circle class="n-vesicle" cx="366" cy="102" r="4"/><path class="n-line" d="M392 50 C380 90 380 90 392 130 M392 90 L436 90"/><rect x="330" y="40" width="110" height="100" fill="transparent"/></g>
-  <text class="svg-small" x="300" y="160">neurone successivo →</text>
+  <text class="svg-small" x="236" y="168">neurone successivo →</text>
 </svg>
 <div class="region-btns">${Object.keys(P).map((k) => `<button type="button" data-p="${k}" aria-pressed="false">${P[k][0]}</button>`).join('')}</div>
 <div class="box info" aria-live="polite"><p>Il segnale viaggia sempre nello stesso verso: dendriti → corpo cellulare → assone → sinapsi.</p></div>`;
@@ -1274,6 +1315,12 @@ ${CHAPTERS.map((c) => `<section class="activity" data-cc="${c.id}"><span class="
     // attività
     $$('[data-act]', main).forEach((n) => { const f = ACT[n.dataset.act]; if (f) f(n); });
     $$('.openqs', main).forEach((n) => renderOpenQs(n, n.dataset.ch));
+    // tabelle: etichette per la vista a schede su telefono
+    $$('.table-wrap table', main).forEach((t) => {
+      const rows = $$('tr', t); const head = $$('th, td', rows[0]).map((c) => c.textContent.trim());
+      rows.slice(1).forEach((r) => $$('th, td', r).forEach((c, j) => { if (c.tagName === 'TD') c.setAttribute('data-label', head[j] || ''); }));
+      t.classList.add('stack');
+    });
     // indice interno
     $$('[data-goto]', main).forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); const t = document.getElementById(a.dataset.goto); if (t) { t.scrollIntoView({ block: 'start' }); t.setAttribute('tabindex', '-1'); t.focus({ preventScroll: true }); } }));
     // ricerca glossario
